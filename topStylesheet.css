@@ -1,0 +1,13 @@
+.contents h1{
+    font-size:40px;
+    padding: 180px 0 100px 0; 
+   /*background-image: url(); */
+    background-size: cover;
+    text-align: center;
+    font-family:serif;
+}
+
+.contents span{
+    color:red;
+    font-size:100px
+}
