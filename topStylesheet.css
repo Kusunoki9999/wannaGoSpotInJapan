@@ -1,13 +1,14 @@
 .contents h1{
-    font-size:40px;
+    font-size:400px;
     padding: 180px 0 100px 0; 
-   /*background-image: url(); */
+    background-image: url(https://search.find47.jp/ja/i/Dhnyk/image_file?type=detail_thumb);
     background-size: cover;
     text-align: center;
     font-family:serif;
+    color:white;
 }
 
 .contents span{
-    color:red;
+    color:#FF0033;
     font-size:100px
 }
