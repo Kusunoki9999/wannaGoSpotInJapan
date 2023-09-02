@@ -1,5 +1,50 @@
-.contents h1{
-    font-size:400px;
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+  }
+
+  /*テスト*/
+ .header-left{
+    display:inline;
+    float:left;
+    font-size:20px;
+    color:skyblue;
+    font-family:cursive;
+  }
+
+  .header-left span{
+    font-size:30px;
+  }
+
+  .header-right{
+    float:right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .hokkaido:hover{background-color: rgba(255, 255, 255, 0.5);}
+  .tohoku:hover{background-color: rgba(255, 255, 255, 0.5);}
+  .kanto:hover{background-color: rgba(255, 255, 255, 0.5);}
+  .chubu:hover{background-color: rgba(255, 255, 255, 0.5);}
+  .kinki:hover{background-color: rgba(255, 255, 255, 0.5);}
+  .chugoku:hover{background-color: rgba(255, 255, 255, 0.5);}
+  .shikoku:hover{background-color: rgba(255, 255, 255, 0.5);}
+  .kyushu:hover{background-color: rgba(255, 255, 255, 0.5);}
+
+
+  .header-right a{
+    float:none;
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display:inline-block;
+  }
+
+
+
+.top-wrapper h1{
+    font-size:40x;
     padding: 180px 0 100px 0; 
     background-image: url(https://search.find47.jp/ja/i/Dhnyk/image_file?type=detail_thumb);
     background-size: cover;
@@ -8,7 +53,7 @@
     color:white;
 }
 
-.contents span{
+.top-wrapper span{
     color:#FF0033;
     font-size:100px
 }
