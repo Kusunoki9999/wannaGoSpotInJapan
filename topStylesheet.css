@@ -4,7 +4,6 @@ header{
     background-color: rgba(34, 49, 52, 0.9);
   }
 
-  /*テスト*/
  .header-left{
     display:inline;
     float:left;
@@ -51,6 +50,7 @@ header{
     text-align: center;
     font-family:serif;
     color:white;
+    opacity:0.85
 }
 
 .top-wrapper span{
