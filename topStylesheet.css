@@ -63,10 +63,11 @@ header{
 /*北海道*/
 .map hokkaido{
   position:relative;
+  text-align:center;
 }
 
 .hakodate{
   position:absolute;
-  top:713px;
-  left:335px;
+  top:587px;
+  left:305px;
 }
