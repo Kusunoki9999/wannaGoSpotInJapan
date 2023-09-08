@@ -22,6 +22,7 @@ header{
     transition: all 0.5s;
   }
   
+  .index:hover{background-color: rgba(255, 255, 255, 0.5);}
   .hokkaido:hover{background-color: rgba(255, 255, 255, 0.5);}
   .tohoku:hover{background-color: rgba(255, 255, 255, 0.5);}
   .kanto:hover{background-color: rgba(255, 255, 255, 0.5);}
@@ -56,4 +57,16 @@ header{
 .top-wrapper span{
     color:#FF0033;
     font-size:100px
+}
+
+/*マップページ*/
+/*北海道*/
+.map hokkaido{
+  position:relative;
+}
+
+.hakodate{
+  position:absolute;
+  top:713px;
+  left:335px;
 }
