@@ -71,3 +71,7 @@ header{
   top:587px;
   left:305px;
 }
+
+.pin:hover{
+  transform:scale(1.5,1.5)
+}
