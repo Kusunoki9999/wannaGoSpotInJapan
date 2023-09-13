@@ -66,12 +66,30 @@ header{
   text-align:center;
 }
 
-.hakodate{
+.pin{
   position:absolute;
+}
+
+.hakodate{
   top:587px;
   left:305px;
 }
 
+.garo{
+  top:390px;
+  left:415px
+}
+
+.wakka{
+  top:285px;
+  left:605px;
+}
+
+.kawayu{
+  top:360px;
+  left:645px;
+}
+
 .pin:hover{
-  transform:scale(1.5,1.5)
+  transform:scale(1.5,1.5);
 }
