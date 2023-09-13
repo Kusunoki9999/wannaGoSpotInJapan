@@ -4,7 +4,6 @@ header{
     background-color: rgba(34, 49, 52, 0.9);
   }
 
-  /*テスト*/
  .header-left{
     display:inline;
     float:left;
@@ -23,6 +22,7 @@ header{
     transition: all 0.5s;
   }
   
+  .index:hover{background-color: rgba(255, 255, 255, 0.5);}
   .hokkaido:hover{background-color: rgba(255, 255, 255, 0.5);}
   .tohoku:hover{background-color: rgba(255, 255, 255, 0.5);}
   .kanto:hover{background-color: rgba(255, 255, 255, 0.5);}
@@ -51,9 +51,45 @@ header{
     text-align: center;
     font-family:serif;
     color:white;
+    opacity:0.85
 }
 
 .top-wrapper span{
     color:#FF0033;
     font-size:100px
+}
+
+/*マップページ*/
+/*北海道*/
+.map hokkaido{
+  position:relative;
+  text-align:center;
+}
+
+.pin{
+  position:absolute;
+}
+
+.hakodate{
+  top:587px;
+  left:305px;
+}
+
+.garo{
+  top:390px;
+  left:415px
+}
+
+.wakka{
+  top:285px;
+  left:605px;
+}
+
+.kawayu{
+  top:360px;
+  left:645px;
+}
+
+.pin:hover{
+  transform:scale(1.5,1.5);
 }
