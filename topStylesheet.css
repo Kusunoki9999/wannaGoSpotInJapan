@@ -66,6 +66,14 @@ header{
     font-size:100px
 }
 
+.introduction p{
+
+}
+
+.attention{
+  padding:50px 15px;
+}
+
 /*マップページ*/
 /*北海道*/
 .map{
