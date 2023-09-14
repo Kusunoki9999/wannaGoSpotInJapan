@@ -106,10 +106,19 @@ footer{
 
 .footer-logo{
   text-decoration:underline;
-  font-size:20px;
+  font-size:30px;
+  color:skyblue;
+  font-family:cursive;
 }
 
-.credit p{
-  font-size:20px;
-  text-align:bottom;
+.credit{
+  display:inline-block;
+  position:left;
+  padding:0 50px;
+}
+
+.SNS-link{
+  display:inline-block;
+  position:right;
+  padding:0 50px;
 }
