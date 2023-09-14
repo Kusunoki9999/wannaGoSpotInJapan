@@ -93,3 +93,13 @@ header{
 .pin:hover{
   transform:scale(1.5,1.5);
 }
+
+
+
+
+
+footer{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
