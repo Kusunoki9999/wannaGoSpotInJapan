@@ -99,7 +99,17 @@ header{
 
 
 footer{
-  height: 65px;
+  height: 200%;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+}
+
+.footer-logo{
+  text-decoration:underline;
+  font-size:20px;
+}
+
+.credit p{
+  font-size:20px;
+  text-align:bottom;
 }
