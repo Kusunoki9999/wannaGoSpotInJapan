@@ -3,6 +3,13 @@ header{
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
   }
+  header{
+    position:fixed;
+    z-index:5;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    }
 
  .header-left{
     display:inline;
@@ -62,6 +69,7 @@ header{
 /*マップページ*/
 /*北海道*/
 .map{
+  padding:65px 176px;
   position:relative;
   text-align:center;
 }
