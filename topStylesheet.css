@@ -66,9 +66,7 @@ header{
   text-align:center;
 }
 
-.pin{
-  position:absolute;
-}
+
 
 .hakodate{
   position:absolute;
@@ -76,7 +74,7 @@ header{
   left:305px;
 }
 
-.desc{
+.desc-hakodate{
   display:none;
   padding: 10px;
   font-size: 15px;
@@ -87,7 +85,7 @@ header{
   opacity:0.7;
 }
 
-.hakodate:hover .desc{
+.hakodate:hover .desc-hakodate{
   display:inline;
   top: 70px;
   text-align:center;
@@ -110,5 +108,5 @@ header{
 }
 
 .pin:hover{
-  transform:scale(1.5,1.5);
+  transform:scale(1.2,1.2);
 }
