@@ -61,7 +61,7 @@ header{
 
 /*マップページ*/
 /*北海道*/
-.map hokkaido{
+.map{
   position:relative;
   text-align:center;
 }
@@ -71,9 +71,28 @@ header{
 }
 
 .hakodate{
+  position:absolute;
   top:587px;
   left:305px;
 }
+
+.desc{
+  display:none;
+  padding: 10px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  background: #000;
+  width: 70%;
+  opacity:0.7;
+}
+
+.hakodate:hover .desc{
+  display:inline;
+  top: 70px;
+  text-align:center;
+}
+
 
 .garo{
   top:390px;
