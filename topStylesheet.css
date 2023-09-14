@@ -194,3 +194,10 @@ footer{
   position:right;
   padding:0 50px;
 }
+
+.not-message{
+  padding:200px 0 150px 0;
+  text-align: center;
+  font-family:serif;
+  color:#000
+}
