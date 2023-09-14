@@ -158,3 +158,32 @@ header{
 .pin:hover{
   transform:scale(1.2,1.2);
 }
+
+
+
+
+
+footer{
+  height: 200%;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.footer-logo{
+  text-decoration:underline;
+  font-size:30px;
+  color:skyblue;
+  font-family:cursive;
+}
+
+.credit{
+  display:inline-block;
+  position:left;
+  padding:0 50px;
+}
+
+.SNS-link{
+  display:inline-block;
+  position:right;
+  padding:0 50px;
+}
